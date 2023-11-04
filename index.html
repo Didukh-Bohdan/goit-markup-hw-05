@@ -511,31 +511,45 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <form action="form">
+        <form class="form">
           <div class="form-conteiner">
-            <label class="form-label" for="">Name</label>
+            <label class="form-label" for="user-name">Name</label>
+            <div class="input-conteiner" >
             <input 
-            class="input-conteiner"
+            class="input-toch"
             type="text" 
             name="user-name"
             id="user-name" />
+            <svg  class="ico-svg" width="18" height="24">
+              <use href="./images/icons.svg#person"></use>
+            </svg>
+            </div>
           </div>
           <div class="form-conteiner">
             <label class="form-label" for="user-phone">Phone</label>
-            <input type="tel"
-            name="user-phone"
-            id="user-phone" 
-            class="input-conteiner"
-             />
-          </div>
-          <div class="form-conteiner">
+            <div class="input-conteiner">
+               <input
+                class="input-toch"
+                type="tel"
+                name="user-phone"
+                id="user-phone" />
+                <svg  class="ico-svg" width="18" height="24">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+            </div>   
+          </div>    
+            <div class="form-conteiner">
             <label class="form-label" for="user-emeil">Email</label>
+            <div class="input-conteiner">
             <input 
-            class="input-conteiner"
-            type="emeil"
-            name="user-emeil"
-            id="user-emeil" 
-             />
+             class="input-toch"
+              type="emeil"
+              name="user-emeil"
+              id="user-emeil" />
+              <svg class="ico-svg" icons-svg width="18" height="24">
+                <use href="./images/icons.svg#email"></use>
+              </svg>
+             </div>
           </div>
            <div class="form-conteiner">
             <label class="form-label" for="user-commen">Comment</label>
@@ -552,7 +566,9 @@
                 name="user-policy"
                 id="user-policy">
               
-              <label class="checkbox-text" for="user-policy" >
+              <label 
+              class="checkbox-text" 
+              for="user-policy" >
                 </span
               >I accept the terms and conditions of the
               <a href="#" class="privacy-policy-text">Privacy Policy</a></label>
