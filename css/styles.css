@@ -602,6 +602,10 @@ input::placeholder {
   margin-bottom: 16px;
 }
 
+.form {
+  margin-bottom: 8px;
+}
+
 .form-container {
   margin-bottom: 8px;
 }
