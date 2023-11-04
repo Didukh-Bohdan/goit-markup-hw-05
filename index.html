@@ -475,38 +475,21 @@
           </ul>
         </div>
       </div>
-      <div class="footer-subscribe-wrapper">
-        <p class="footer-socials-title"></p>
-
-        <form class="footer-subscribe">
-          <label class="footer-form">
-            <input
-              class="footer-input-email"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-            />
+      <div class="footer-form">
+        <p class="footer-links">Subscribe</p>
+        <form class="form-subscribe" method="post">
+          <label class="form-subscribe__label">
+            <input class="form-subscribe__input" type="email" name="mail-subscribe" id="subscribe-mail"
+              placeholder="E-mail">
           </label>
-
-          <button class="subscribe-btn-link" type="submit">
+          <button class="form-subscribe__action" type="submit">
             Subscribe
-            <svg class="send-icon-svg" width="24" height="24">
-              <use href="./images/icons.svg#frame"></use>
+            <svg class="form-subscribe__icon" width="24" height="24">
+              <use href="./images/icons.svg#telegram" />
             </svg>
           </button>
         </form>
       </div>
     </footer>
-    <div class="modal">
-      <button
-        class="modal-close-button"
-        aria-label="modal close button"
-        type="button"
-      >
-        <svg class="modal-close-button-icon" width="8" height="8">
-          <use href="./images/icons.svg#close" />
-        </svg>
-      </button>
-    </div>
   </body>
 </html>
