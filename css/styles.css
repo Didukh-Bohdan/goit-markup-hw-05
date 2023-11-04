@@ -601,6 +601,9 @@ input::placeholder {
   color: #2e2f42;
   margin-bottom: 16px;
 }
+.form {
+  margin-bottom: 8px;
+}
 
 .form-conteiner {
   margin-bottom: 8px;
