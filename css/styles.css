@@ -587,6 +587,8 @@ input::placeholder {
 .model-close-btn:hover .modal-close-btn-icon,
 .model-close-btn:focus .modal-close-btn-icon {
   fill: #ffffff;
+  background-color: #404bbf;
+  border: none;
 }
 
 .modal-text {
