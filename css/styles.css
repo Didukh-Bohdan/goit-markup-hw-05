@@ -631,8 +631,28 @@ input::placeholder {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.ico-svg:focus,
+.ico-svg:hover,
+.input-toch:focus,
+.input-toch:hover,
+.input-toch:focus + .ico-svg,
+.input-toch:hover + .ico-svg,
+.textarea-container:focus,
+.textarea-container:hover,
+.input-comment:focus,
+.input-comment:hover {
+  border-color: #4d5ae5;
+  fill: #4d5ae5;
+}
+
 .form-conteiner {
   margin-bottom: 16px;
+}
+
+.checkbox:checked + .checkbox-text > .checkbox-icon {
+  background-color: #404bbf;
+  fill: #f4f4fd;
+  border: none;
 }
 
 .form-label {
