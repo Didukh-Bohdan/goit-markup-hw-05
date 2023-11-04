@@ -611,7 +611,7 @@ input::placeholder {
   margin-bottom: 4px;
 }
 
-.input-conteine {
+.input-conteiner {
   position: relative;
 }
 
@@ -627,6 +627,7 @@ input::placeholder {
 }
 
 .ico-svg {
+  top: 50%;
   position: absolute;
   left: 16px;
   top: 50%;
