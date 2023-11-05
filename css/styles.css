@@ -610,9 +610,6 @@ input::placeholder {
   margin-bottom: 8px;
 }
 
-.form-container textarea-container {
-  margin-bottom: 8px;
-}
 
 
 
@@ -662,9 +659,7 @@ input::placeholder {
   fill: #4d5ae5;
 }
 
-.form-container {
-  margin-bottom: 16px;
-}
+
 
 .checkbox:checked + .checkbox-text > .checkbox-icon {
   background-color: #404bbf;
