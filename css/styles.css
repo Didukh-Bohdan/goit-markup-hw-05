@@ -602,16 +602,9 @@ input::placeholder {
   margin-bottom: 16px;
 }
 
-.form {
-  margin-bottom: 8px;
-}
-
 .form-container {
   margin-bottom: 8px;
 }
-
-
-
 
 .form-label {
   font-size: 12px;
@@ -658,8 +651,6 @@ input::placeholder {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
-
-
 
 .checkbox:checked + .checkbox-text > .checkbox-icon {
   background-color: #404bbf;
