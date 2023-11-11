@@ -584,7 +584,7 @@ input::placeholder {
 
 .modal-close-btn:hover .modal-close-btn-icon,
 .modal-close-btn:focus .modal-close-btn-icon {
-  fill: #ffffff;
+  fill: #fff;
 }
 
 .modal-close-btn-icon {
